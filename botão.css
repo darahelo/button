@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+}
+#button {
+   padding: 10px;
+   margin: 10px;
+   border-radius: 10px;
+   border:none;
+   color:white;
+   border: none;
+
+}
+#normal {
+    font-size: larger;
+    background-color: rgb(244, 167, 246);
+    border: none;
+
+}
+#normal:hover{
+    background-color: rgb(234, 242, 153);
+    transform: translateY(5px);
+}
+#sombreado {
+    box-shadow: 3px 1px 3px pink;
+    background-color: transparent;
+    color: white;
+    border: none;
+
+}
+#gradiente {
+    background: linear-gradient(to left, rgb(164, 238, 241), rgb(232, 164, 241));
+    background-color: transparent;
+    border: none;
+}
+#gradiente:hover {
+    cursor:pointer;
+    background: linear-gradient(to left, rgb(232, 164, 241), rgb(164, 238, 241));
+}
+
+#pontilhado { /*espesura, estilo e cor*/
+    border: 2px dotted rgb(230, 83, 181);
+    background-color: transparent;
+    color: white;
+}
+#icone {
+    background-color: rgb(255, 255, 255);
+    color:rgb(88, 2, 2);
+    border: 2px solid rgb(232, 164, 241);
+    border: none;
+}
+
+#emoji:hover {
+    cursor: pointer;
+}
+
+#pointer {
+    background-color: #9cff3a;
+    border: none;
+}
+
+#pointer:active {
+    transform:scale(0.8);
+}
+
+#neon {
+    background-color: blueviolet;
+    box-shadow: 0 0 5px blueviolet, 0 0 25px blueviolet;
+    border: none;
+}
+#neon:hover {
+    box-shadow: 
+    0 0 5px  blueviolet,
+    0 0 25px blueviolet,
+    0 0 50px blueviolet,
+    0 0 100px blueviolet,
+    0 0 200px blueviolet,
+}
+
+#vinil{
+    background-color: darkblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 100rem;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+#vinil:hover{
+    animation: xablau 5s infinite linear;
+}
+
+@keyframes xablau {
+    0%{ transform: rotate(0deg); }
+    100%{ transform: rotate(360deg); } 
+
+}
